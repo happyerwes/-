@@ -1,0 +1,8 @@
+global_var = print("I am global")
+
+
+def print_variables():
+    locals_var = "I am local"
+    print(locals_var)
+
+print_variables()
