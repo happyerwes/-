@@ -1,0 +1,32 @@
+def greet_users(name):
+    """
+    Greet the user with their name.
+
+    parameters:
+    name(str):the nmae of the user to greet.
+
+    prturns:
+    none
+    
+    """
+
+    print("hello, " + name + "!")
+
+name = input("what is your name?:")
+greet_users(name)
+
+
+def square(number):
+    """
+    Calculate the ssquare of a number.
+
+    Parameters:
+    number(int or float):the number to be squared.
+
+    returns:
+    int or float:the square of the input number.
+    """
+    return number * number
+
+number = int(input("the square length:"))
+print("the square is", square(number))
