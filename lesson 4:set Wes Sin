@@ -1,0 +1,8 @@
+colors = {"red", "green", "blue", "yellow"}
+print(colors)
+colors.add("purple")
+colors.discard("green")
+print(colors)
+primary_colors = {"red", "blue","yellow"}
+print(colors.difference(primary_colors))
+print(colors.intersection(primary_colors))
